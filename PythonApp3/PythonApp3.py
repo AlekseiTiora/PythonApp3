@@ -25,6 +25,27 @@ plt.plot(x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6,x7,y7, linewidth=2, color="red")
 
 plt.show()
 
+#zontik-----------
+xc1 = np.arange(-12,13)
+yc1 = -1/18*xc1**2 + 12
+xc2 = np.arange(-4,5)
+yc2 = -1/8*xc2**2 + 6
+xc3 = np.arange(-12,-3)
+yc3 = -1/8*(xc3+8)**2 + 6
+xc4 = np.arange(4,13)
+yc4 = -1/8*(xc4-8)**2 + 6
+xc5 = np.arange(-4,1)
+yc5 = 2*(xc5+3)**2-9
+xc6 = np.arange(-4,1)
+yc6 = 1.5*(xc6+3)**2-10
+
+plt.subplots()
+plt.title("Зонтик))")
+plt.grid(True)
+
+plt.plot(xc1,yc1,xc2,yc2,xc3,yc3,xc4,yc4,xc5,yc5,xc6,yc6, linewidth=3, color="green")
+plt.show()
+
 
 #babo4ka------------------------------------
 
@@ -86,6 +107,6 @@ title = "Данные о ИТ безопасности"
 plt.grid(True)
 
 color_rectangle = np.random.rand(7, 3)
-plt.bar(mas1, mas2, color=color_rectangle)
+plt.barh(mas1, mas2, color=color_rectangle)
 
 plt.show()
