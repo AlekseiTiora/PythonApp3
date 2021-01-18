@@ -86,6 +86,6 @@ title = "Данные о ИТ безопасности"
 plt.grid(True)
 
 color_rectangle = np.random.rand(7, 3)
-plt.barh(mas1, mas2, color=color_rectangle)
+plt.bar(mas1, mas2, color=color_rectangle)
 
 plt.show()
