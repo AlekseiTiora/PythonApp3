@@ -68,3 +68,4 @@ plt.grid(True)
 plt.plot(x_1,y_1,x_2,y_2,x_3,y_3,x_4,y_4,x_5,y_5,x_6,y_6,x_7,y_7,x_8,y_8,x_9,y_10,x_11,y_11,x_12,y_12,x_13,y_13,x_14,y_14,x_15,y_15,x_16,y_16, linewidth=2, color="red")
 
 plt.show()
+
